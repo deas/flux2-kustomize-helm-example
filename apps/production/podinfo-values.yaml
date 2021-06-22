@@ -8,6 +8,9 @@ spec:
     spec:
       version: ">=1.0.0"
   values:
-    ingress:
-      hosts:
-        - podinfo.production
+    #ingress:
+    #  hosts:
+    #    - host: podinfo.staging
+    #      paths:
+    #        - path: /
+    #          pathType: ImplementationSpecific
